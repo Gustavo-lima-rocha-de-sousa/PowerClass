@@ -1,2 +1,8 @@
 # PowerClass
-Abordaremos as seguintes bibliotecas: java: java.lang.String java.util.StringJoiner java.lang.StringBuilder
+#### Colaboradores
+* *Daniel* *Santos*
+* *Arthur* *Kayser*
+* *Lais* *Costa*
+* *Eddward* *Messias*
+* *Jonas* *Souza*
+* *Henrique* *Cordeiro*
