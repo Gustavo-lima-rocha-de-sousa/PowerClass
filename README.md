@@ -5,6 +5,7 @@ Abordaremos as seguintes classes:
 * **Java.lang.String**
 * **Java.util.StringJoiner**
 * **Java.lang.StringBuilder**
+# | String |
 
 # | StringJoiner |
 É uma classe java que é utilizada para juntar Strings, também é possível ja passar delimitadores, prefixos e sufixos ao juntar strings
@@ -29,6 +30,8 @@ public class Example {
 
 ![image](https://user-images.githubusercontent.com/72114370/147014461-446f9d70-acca-4856-9a96-25025702f3c2.png)
 
+
+# | StringBuilder |
 
 #### Colaboradores
 * *Daniel* *Santos*
