@@ -24,6 +24,11 @@ public class Example {
         mystring.add("Maggie");  
         mystring.add("Daryl");  
 (Negan,Rick,Maggie,Daryl)
+<br/>
+#### **Teste StringJoiner Console**
+
+![image](https://user-images.githubusercontent.com/72114370/147014461-446f9d70-acca-4856-9a96-25025702f3c2.png)
+
 
 #### Colaboradores
 * *Daniel* *Santos*
