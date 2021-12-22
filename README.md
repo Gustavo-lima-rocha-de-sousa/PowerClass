@@ -33,6 +33,17 @@ public class Example {
 
 # | StringBuilder |
 
+A classe StringBuilder permite criar e manipular dados de Strings dinamicamente, ou seja, podem criar variáveis de String modificáveis.
+
+#### **Características StringBuilder**
+* Armazena caracteres especificados pela sua capacidade, caso ela seja excedida, é aumentada para acomodar os caracteres adicionais;
+* Não precisa alocar novos objetos quando realiza uma concatenação;
+* Não são sincronizadas;
+* Não são seguras para threads;
+
+Uma diferença entre a classe String e a classe String Builder é que para concatenação é invocado o método append. Esse método aloca novas strings concatenadas para o mesmo objeto, então cada vez que concatena strings não são criadas cópias dos objetos como é realizado pelo método concat da classe String, contribuindo para um melhor desempenho do sistema.
+
+
 #### Colaboradores
 * *Daniel* *Santos*
 * *Arthur* *Kayser*
