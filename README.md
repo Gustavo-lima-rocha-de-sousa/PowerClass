@@ -23,12 +23,12 @@ Por exemplo:
   public class Example{
     public static void main(String[] args) { 
         
-        // String str = "abc";
+         String str = "abc";
          System.out.println("abc");
          String cde = "cde";
          System.out.println("abc" + cde);
          String c = "abc".substring(2,3);
-          String d = cde.substring(1, 2);
+         String d = cde.substring(1, 2);
           
 Essa classe integra métodos para averiguar caracteres particulares da sequência, para realizar a contraposição de strings, para realização de pesquisas, para  extração de substrings e para criação de um clone e de uma string, sendo eles retratados em minúsculos e maiúsculos, já a esquematização de caso é embasado na versão padrão Unicode descrito pela classe Character. 
 Diferente da classe StringJoiner, não tem necessidade de importação de biblioteca, podendo ser utilizado no método main.
