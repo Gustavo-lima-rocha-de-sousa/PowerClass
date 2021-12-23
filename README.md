@@ -74,5 +74,17 @@ A classe StringBuilder permite criar e manipular dados de Strings dinamicamente,
 * Não são seguras para threads;
 
 Uma diferença entre a classe String e a classe String Builder é que para concatenação é invocado o método append. Esse método aloca novas strings concatenadas para o mesmo objeto, então cada vez que concatena strings não são criadas cópias dos objetos como é realizado pelo método concat da classe String, contribuindo para um melhor desempenho do sistema.
+
+      public class desafio1 {
+      
+      public static void main(String[] args) {
+  
+ 		 StringBuilder nomes = new StringBuilder();
+		 nomes.append("Eddward>").append("Daniel>").append("Lais>").append("Claudia>").append("Jonas>").append("Arthur>")
+		 .append("Henrique>").append("Gustavo>");
+		 System.out.println(nomes.toString());
+	}
+}	
+
 #### **Teste StringBuilder Console**
 ![image](https://user-images.githubusercontent.com/72114370/147277906-c777454d-2e07-4afb-ba78-cc430572e4c6.png)
