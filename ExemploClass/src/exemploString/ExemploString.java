@@ -29,15 +29,16 @@ public class ExemploString {
 		System.out.println(tx);
 		System.out.println(tx1);
 
-		System.out.println("-------------");
+		System.out.println("------HASHCODE-------");
 		int aula = curso.hashCode();
 		int aula1 = curso1.hashCode();
 
 		System.out.println(aula);
 		System.out.println(aula1);
 
-		System.out.println("-------------");
-		/* Concat: Método usado para juntar Strings */
+		System.out.println("-----CONCAT------");
+		
+		/* Concat: Método usado para concatenar Strings */
 
 		String subida = nome.concat(" Subiu no pé de feijão");
 		System.out.println(subida);
@@ -45,5 +46,27 @@ public class ExemploString {
 		String caida = nome.concat(" Caiu do pé de feijão");
 
 		System.out.println(caida);
+		
+		System.out.println("-----SPLIT------");
+		
+		/* Split:   */
+		
+		String valor = "DEVSCHOOL - JAVA - MJV";
+        String[] valorComSplit = valor.split("-");
+
+        for(String s : valorComSplit){
+               System.out.println(s);
+        }
+        
+        System.out.println("-----SPLIT COM LIMIT------");
+         
+        /*Slipt Limit:  */
+        
+        String nomes = "Colaboradores - Daniel - Lais - Arthur - Claudia - Eddward - Gustavo - Jonas - Henrique";
+        String[] nomesComSplit = nomes.split("-",3);
+
+        for(String n : nomesComSplit){
+               System.out.println(n);
+        }
 	}
 }
