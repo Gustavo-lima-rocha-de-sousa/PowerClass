@@ -1,5 +1,7 @@
 package exemploString;
 
+import java.util.Scanner;
+
 public class ExemploString {
 
 	public static void main(String[] args) {
@@ -20,7 +22,7 @@ public class ExemploString {
 
 		/*
 		 * String HashCode serve para verificar se os dados se manteram constantes ou
-		 * tiveram modifica��es. Esse m�todo retorna o c�digo hash das Strings;
+		 * tiveram modifica��es. Esse m�todo retorna o c�digo hash das Strings;
 		 */
 
 		int tx = texto.hashCode();
@@ -38,12 +40,12 @@ public class ExemploString {
 
 		System.out.println("-----CONCAT------");
 		
-		/* Concat: M�todo usado para concatenar Strings */
+		/* Concat: M�todo usado para concatenar Strings */
 
-		String subida = nome.concat(" Subiu no p� de feij�o");
+		String subida = nome.concat(" Subiu no p� de feij�o");
 		System.out.println(subida);
 
-		String caida = nome.concat(" Caiu do p� de feij�o");
+		String caida = nome.concat(" Caiu do p� de feij�o");
 
 		System.out.println(caida);
 		
@@ -60,7 +62,7 @@ public class ExemploString {
         
         System.out.println("-----SPLIT COM LIMIT------");
          
-        /*Slipt Limit:  */
+        /*Split Limit:  */
         
         String nomes = "Colaboradores - Daniel - Lais - Arthur - Claudia - Eddward - Gustavo - Jonas - Henrique";
         String[] nomesComSplit = nomes.split("-",3);
@@ -68,5 +70,25 @@ public class ExemploString {
         for(String n : nomesComSplit){
                System.out.println(n);
         }
+
+		//s.toLowerCase()
+		//Esse método retorna uma cópia da string com todos os caracteres em minúsculo.
+		//É muito usado para verificar que opção o usuário selecionou,
+		//pois por exemplo para uma pergunta de "sim ou não" ele pode responder "Sim", "SIM", "sim", etc.
+		
+		Scanner scr = new Scanner(System.in);
+		String input = scr.nextLine();
+		if (input.toLowerCase() == "sim")
+		{
+			//ação para opção "sim"
+		}
+		//s.toUpperCase()
+		//Esse método retorna uma cópia da string com todos os caracteres em maiúsculo.
+		//e pode ser usado pelos mesmos motivos que o toLowerCase()
+		if (input.toUpperCase() == "nao")
+		{
+			//ação para opção "não"
+		}
+
 	}
 }
