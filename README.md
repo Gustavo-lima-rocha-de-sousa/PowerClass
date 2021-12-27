@@ -89,7 +89,7 @@ Uma diferença entre a classe String e a classe String Builder é que para conca
 #### **Teste StringBuilder Console**
 ![image](https://user-images.githubusercontent.com/72114370/147277906-c777454d-2e07-4afb-ba78-cc430572e4c6.png)
 
-#####Links para compreensão do exercício
+##### Links para compreensão do exercício
 como funcionam construtores
 https://www.devmedia.com.br/construtores-em-java-primeiros-passos/28618
 
@@ -99,13 +99,13 @@ https://www.devmedia.com.br/padrao-de-projeto-singleton-em-java/26392
 como identificar se há sobrecarga de métodos
 https://www.javaprogressivo.net/2012/09/sobrecarga-de-metodos-method.html
 
-#####Links de referência
+##### Links de referência
 (inglês) documentação String 
 https://docs.oracle.com/javase/7/docs/api/java/lang/String.html
 
 
 
-#####Links adicionais
+##### Links adicionais
 String vs StringBuilder 
 https://www.devmedia.com.br/diferencas-entre-string-stringbuilder-e-stringbuffer-em-java/29865
 
