@@ -1,7 +1,9 @@
 # PowerClass
 
+Bem-vindos ao segundo exercício em grupo do <img  align="center" alt="html5" src="https://img.shields.io/static/v1?label=DevSchool&message=MJV&color=blueviolet"/>!
+</div> 
 
-Abordaremos as seguintes classes: 
+#### Abordaremos as seguintes classes: 
 * **Java.lang.String**
 * **Java.util.StringJoiner**
 * **Java.lang.StringBuilder**
@@ -15,9 +17,11 @@ Abordaremos as seguintes classes:
 * *Henrique* *Cordeiro*
 * *Claudia* *A*
 * *Gustavo* *Lima*
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # | String |
+
 String representa uma sequência de caracteres. As notação de string em programas Java, como por exemplo "abc", são implementados como instâncias desta classe. Os valores não podem sofrer alterações após sua criação.  As estrutura são constantes. Já os buffers de string suportam strings mutáveis, bem como, os objetos String são permanentes, ou seja, podem ser compartilhados. 
 Por exemplo: 
   public class Example{
@@ -37,7 +41,10 @@ Diferente da classe StringJoiner, não tem necessidade de importação de biblio
 
 ![image](https://user-images.githubusercontent.com/72114370/147277242-6f6b2617-2b53-4144-85b3-a58d5742aa24.png)
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 # | StringJoiner |
+
 É uma classe java que é utilizada para juntar Strings, também é possível ja passar delimitadores, prefixos e sufixos ao juntar strings
 
 ##### Exemplo:
@@ -62,6 +69,8 @@ Diferente da classe String, Tem necessidade de importação de biblioteca, poden
 #### **Teste StringJoiner Console**
 
 ![image](https://user-images.githubusercontent.com/72114370/147014461-446f9d70-acca-4856-9a96-25025702f3c2.png)
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # | StringBuilder |
 
@@ -89,27 +98,47 @@ Uma diferença entre a classe String e a classe String Builder é que para conca
 #### **Teste StringBuilder Console**
 ![image](https://user-images.githubusercontent.com/72114370/147277906-c777454d-2e07-4afb-ba78-cc430572e4c6.png)
 
-##### Links para compreensão do exercício
-como funcionam construtores
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#### **Links para compreensão do exercício**
+
+_*como funcionam construtores*_
+
 https://www.devmedia.com.br/construtores-em-java-primeiros-passos/28618
 
-o que é o padrão Singleton
+_*o que é o padrão Singleton*_
+
 https://www.devmedia.com.br/padrao-de-projeto-singleton-em-java/26392
 
-como identificar se há sobrecarga de métodos
+_*como identificar se há sobrecarga de métodos*_
+
 https://www.javaprogressivo.net/2012/09/sobrecarga-de-metodos-method.html
 
-##### Links de referência
-(inglês) documentação String 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+####  **Links de referência**
+
+_*(inglês) documentação String*_ 
+
 https://docs.oracle.com/javase/7/docs/api/java/lang/String.html
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+#### **Links adicionais**
 
-##### Links adicionais
-String vs StringBuilder 
+_*String vs StringBuilder*_
+
 https://www.devmedia.com.br/diferencas-entre-string-stringbuilder-e-stringbuffer-em-java/29865
 
-(inglês) Quando usar StringJoiner em vez de StringBuilder
+_*(inglês) Quando usar StringJoiner em vez de StringBuilder*_
+
 https://www.geeksforgeeks.org/use-stringjoiner-stringbuilder/
+
 https://stackoverflow.com/questions/27522563/why-stringjoiner-when-we-already-have-stringbuilder
 
+**Exercício 2: grupo (1)**.
+<div style="display: inline_block"><br/>
+<img  align="center" alt="html5" src="https://inforchannel.com.br/wp-content/uploads/2020/10/241012d2-vagas01.jpg"/>
+</div><br/>  
+
+Data do exercício: 27/12/2021
